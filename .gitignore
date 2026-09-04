@@ -1,0 +1,37 @@
+# Environment & Secrets
+**/.env
+**/.env.*
+**/*.env
+!**/.env.example
+
+# Dependencies (Crucial - prevents thousands of files)
+**/node_modules/
+node_modules/
+
+# Next.js Build Outputs
+**/.next/
+.next/
+out/
+dist/
+build/
+
+# Python Virtual Environments & Caches
+**/__pycache__/
+__pycache__/
+**/*.pyc
+**/.venv/
+.venv/
+**/venv/
+venv/
+
+# Uploaded Files & Generated Reports
+**/backend/data/uploads/*
+**/backend/data/reports/*
+!**/backend/data/uploads/.gitkeep
+!**/backend/data/reports/.gitkeep
+
+# IDE & OS Files
+**/.vscode/
+.vscode/
+.DS_Store
+Thumbs.db

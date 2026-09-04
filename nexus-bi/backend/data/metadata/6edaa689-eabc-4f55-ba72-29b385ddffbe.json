@@ -1,0 +1,249 @@
+{
+  "dataset": {
+    "id": "6edaa689-eabc-4f55-ba72-29b385ddffbe",
+    "filename": "distresses_sales.csv",
+    "file_type": "csv",
+    "uploaded_at": "2026-09-04T12:12:37.588674",
+    "file_size_bytes": 3343,
+    "row_count": 30,
+    "column_count": 12,
+    "quality_score": 99.0
+  },
+  "profile": {
+    "row_count": 30,
+    "column_count": 12,
+    "duplicate_row_count": 0,
+    "quality_score": 99.0,
+    "columns": [
+      {
+        "name": "Order_ID",
+        "inferred_type": "text",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 30,
+        "sample_values": [
+          "ORD-2026-1001",
+          "ORD-2026-1002",
+          "ORD-2026-1003",
+          "ORD-2026-1004",
+          "ORD-2026-1005"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Order_Date",
+        "inferred_type": "datetime",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 30,
+        "sample_values": [
+          "2026-01-14",
+          "2026-01-18",
+          "2026-01-22",
+          "2026-01-29",
+          "2026-02-04"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Customer_ID",
+        "inferred_type": "text",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 30,
+        "sample_values": [
+          "CUST-101",
+          "CUST-108",
+          "CUST-115",
+          "CUST-121",
+          "CUST-104"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Product",
+        "inferred_type": "text",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 12,
+        "sample_values": [
+          "Office Ergonomic Chair",
+          "Mechanical Keyboard",
+          "Standing Desk 60in",
+          "Gel Ink Pen 12pk",
+          "27in 4K Monitor"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Category",
+        "inferred_type": "categorical",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 3,
+        "sample_values": [
+          "Furniture",
+          "Electronics",
+          "Furniture",
+          "Office Supplies",
+          "Electronics"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Region",
+        "inferred_type": "categorical",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 4,
+        "sample_values": [
+          "North",
+          "East",
+          "North",
+          "West",
+          "North"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Quantity",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 11,
+        "sample_values": [
+          "3",
+          "4",
+          "2",
+          "12",
+          "2"
+        ],
+        "min_value": 1.0,
+        "max_value": 20.0,
+        "mean_value": 4.57,
+        "median_value": 3.0,
+        "std_value": null
+      },
+      {
+        "name": "Unit_Price",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 12,
+        "sample_values": [
+          "250.0",
+          "110.0",
+          "420.0",
+          "14.5",
+          "380.0"
+        ],
+        "min_value": 14.5,
+        "max_value": 950.0,
+        "mean_value": 354.07,
+        "median_value": 250.0,
+        "std_value": null
+      },
+      {
+        "name": "Discount",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 11,
+        "sample_values": [
+          "0.05",
+          "0.0",
+          "0.1",
+          "0.0",
+          "0.05"
+        ],
+        "min_value": 0.0,
+        "max_value": 0.5,
+        "mean_value": 0.18,
+        "median_value": 0.1,
+        "std_value": null
+      },
+      {
+        "name": "Revenue",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 27,
+        "sample_values": [
+          "712.5",
+          "440.0",
+          "756.0",
+          "174.0",
+          "722.0"
+        ],
+        "min_value": 137.75,
+        "max_value": 2470.0,
+        "mean_value": 687.81,
+        "median_value": 522.5,
+        "std_value": null
+      },
+      {
+        "name": "Cost",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 27,
+        "sample_values": [
+          "480.0",
+          "320.0",
+          "560.0",
+          "96.0",
+          "580.0"
+        ],
+        "min_value": 90.0,
+        "max_value": 3040.0,
+        "mean_value": 729.43,
+        "median_value": 450.0,
+        "std_value": null
+      },
+      {
+        "name": "Profit",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 28,
+        "sample_values": [
+          "232.5",
+          "120.0",
+          "196.0",
+          "78.0",
+          "142.0"
+        ],
+        "min_value": -570.0,
+        "max_value": 232.5,
+        "mean_value": -41.62,
+        "median_value": 52.38,
+        "std_value": null
+      }
+    ],
+    "issues": []
+  }
+}

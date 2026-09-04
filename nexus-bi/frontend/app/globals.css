@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #F7F7F5;
+  --color-foreground: #111126;
+  --color-navy: #0D0B2B;
+  --color-hero: #070711;
+  --color-mint: #62F5A7;
+  --color-muted: #77778A;
+  --color-border: #E7E7EC;
+}
+
+/* Dark mode should feel premium, not simply inverted (spec section 7). */
+.dark {
+  --color-background: #0D0B2B;
+  --color-foreground: #F7F7F5;
+  --color-navy: #111126;
+  --color-hero: #070711;
+  --color-mint: #62F5A7;
+  --color-muted: #9A9AB0;
+  --color-border: #23223B;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}

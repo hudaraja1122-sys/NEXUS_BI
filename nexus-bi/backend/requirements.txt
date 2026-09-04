@@ -1,0 +1,30 @@
+# --- Phase 1: Foundation (install these first) ---
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# --- Phase 2: Dataset ingestion & profiling ---
+pandas==2.2.3
+openpyxl==3.1.5
+python-multipart==0.0.19
+
+# --- Phase 3: Analytics ---
+duckdb==1.1.3
+numpy==2.1.3
+scipy==1.14.1
+scikit-learn==1.5.2
+
+# --- Phase 4: AI / Gemini ---
+google-genai==0.3.0
+
+# --- Phase 5: Agent workflow ---
+langgraph==0.2.60
+
+# --- Phase 8: Reports ---
+reportlab==4.2.5
+
+# --- Testing ---
+pytest==8.3.4
+httpx==0.28.1

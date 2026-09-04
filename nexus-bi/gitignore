@@ -1,0 +1,32 @@
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+*.env
+!.env.example
+
+# Node / Frontend
+**/node_modules/
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python / Backend
+**/__pycache__/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data & Uploads
+**/data/uploads/*
+**/data/reports/*
+!**/data/uploads/.gitkeep
+!**/data/reports/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

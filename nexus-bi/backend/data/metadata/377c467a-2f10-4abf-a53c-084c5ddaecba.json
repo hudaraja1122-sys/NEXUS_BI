@@ -1,0 +1,249 @@
+{
+  "dataset": {
+    "id": "377c467a-2f10-4abf-a53c-084c5ddaecba",
+    "filename": "sample_sales.csv",
+    "file_type": "csv",
+    "uploaded_at": "2026-09-03T02:58:05.639246",
+    "file_size_bytes": 118882,
+    "row_count": 1200,
+    "column_count": 12,
+    "quality_score": 99.0
+  },
+  "profile": {
+    "row_count": 1200,
+    "column_count": 12,
+    "duplicate_row_count": 0,
+    "quality_score": 99.0,
+    "columns": [
+      {
+        "name": "Order_ID",
+        "inferred_type": "text",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1200,
+        "sample_values": [
+          "ORD-2026-1000",
+          "ORD-2026-1001",
+          "ORD-2026-1002",
+          "ORD-2026-1003",
+          "ORD-2026-1004"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Order_Date",
+        "inferred_type": "datetime",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 180,
+        "sample_values": [
+          "2026-03-09",
+          "2026-06-21",
+          "2026-05-12",
+          "2026-04-18",
+          "2026-01-29"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Customer_ID",
+        "inferred_type": "categorical",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 200,
+        "sample_values": [
+          "CUST-125",
+          "CUST-114",
+          "CUST-126",
+          "CUST-200",
+          "CUST-223"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Product",
+        "inferred_type": "categorical",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 12,
+        "sample_values": [
+          "Binder Clip Pack",
+          "Laptop",
+          "Notebook",
+          "Pen Set",
+          "Standing Desk"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Category",
+        "inferred_type": "categorical",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 3,
+        "sample_values": [
+          "Office Supplies",
+          "Electronics",
+          "Office Supplies",
+          "Office Supplies",
+          "Furniture"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Region",
+        "inferred_type": "categorical",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 4,
+        "sample_values": [
+          "North",
+          "West",
+          "North",
+          "North",
+          "East"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "mean_value": null,
+        "median_value": null,
+        "std_value": null
+      },
+      {
+        "name": "Quantity",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 14,
+        "sample_values": [
+          "4",
+          "5",
+          "5",
+          "6",
+          "3"
+        ],
+        "min_value": 1.0,
+        "max_value": 14.0,
+        "mean_value": 3.8,
+        "median_value": 3.0,
+        "std_value": null
+      },
+      {
+        "name": "Unit_Price",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1187,
+        "sample_values": [
+          "51.08",
+          "402.57",
+          "52.0",
+          "31.62",
+          "243.65"
+        ],
+        "min_value": 10.04,
+        "max_value": 939.52,
+        "mean_value": 301.23,
+        "median_value": 266.95,
+        "std_value": null
+      },
+      {
+        "name": "Discount",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 6,
+        "sample_values": [
+          "0.0",
+          "0.35",
+          "0.0",
+          "0.05",
+          "0.0"
+        ],
+        "min_value": 0.0,
+        "max_value": 0.35,
+        "mean_value": 0.08,
+        "median_value": 0.0,
+        "std_value": null
+      },
+      {
+        "name": "Revenue",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1196,
+        "sample_values": [
+          "204.3",
+          "1308.37",
+          "259.99",
+          "180.21",
+          "730.95"
+        ],
+        "min_value": 30.11,
+        "max_value": 4637.38,
+        "mean_value": 761.35,
+        "median_value": 479.16,
+        "std_value": null
+      },
+      {
+        "name": "Cost",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1196,
+        "sample_values": [
+          "132.8",
+          "1449.27",
+          "168.99",
+          "123.3",
+          "475.12"
+        ],
+        "min_value": 19.57,
+        "max_value": 3338.91,
+        "mean_value": 592.57,
+        "median_value": 352.24,
+        "std_value": null
+      },
+      {
+        "name": "Profit",
+        "inferred_type": "numeric",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1184,
+        "sample_values": [
+          "71.5",
+          "-140.9",
+          "91.0",
+          "56.91",
+          "255.83"
+        ],
+        "min_value": -268.39,
+        "max_value": 1298.47,
+        "mean_value": 168.78,
+        "median_value": 107.5,
+        "std_value": null
+      }
+    ],
+    "issues": []
+  }
+}
